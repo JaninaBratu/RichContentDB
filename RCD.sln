@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCD.Model", "RCD.Model\RCD.Model.csproj", "{0828E090-0124-4B8B-9EE0-1FE939C4C5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCD.WindowsService", "WindowsService1\RCD.WindowsService.csproj", "{43E9D1B8-E141-4A7B-A154-270F47A28247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCD.DAL", "RCD.DAL\RCD.DAL.csproj", "{8E23303D-43FD-43F8-9CF9-31AB72E26465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCD.BL", "RCD.BL\RCD.BL.csproj", "{8A2D711B-A8D2-4AF5-B512-F7020BA78A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCD.FormWindows", "WindowsFormsApplication2\RCD.FormWindows.csproj", "{3669CEA0-A4A1-4667-85A6-AF1B6223C218}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RCD.ServiceSetup", "RCD.ServiceSetup\RCD.ServiceSetup.vdproj", "{7DFC3C86-F021-4CA9-9721-8D8FECC43299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindowsForm", "TestWindowsForm\TestWindowsForm.csproj", "{F1D192C4-1E94-4FCE-B9CF-4286429FC99E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0828E090-0124-4B8B-9EE0-1FE939C4C5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0828E090-0124-4B8B-9EE0-1FE939C4C5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0828E090-0124-4B8B-9EE0-1FE939C4C5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0828E090-0124-4B8B-9EE0-1FE939C4C5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E9D1B8-E141-4A7B-A154-270F47A28247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E9D1B8-E141-4A7B-A154-270F47A28247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E9D1B8-E141-4A7B-A154-270F47A28247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E9D1B8-E141-4A7B-A154-270F47A28247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E23303D-43FD-43F8-9CF9-31AB72E26465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E23303D-43FD-43F8-9CF9-31AB72E26465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E23303D-43FD-43F8-9CF9-31AB72E26465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E23303D-43FD-43F8-9CF9-31AB72E26465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2D711B-A8D2-4AF5-B512-F7020BA78A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2D711B-A8D2-4AF5-B512-F7020BA78A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2D711B-A8D2-4AF5-B512-F7020BA78A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2D711B-A8D2-4AF5-B512-F7020BA78A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3669CEA0-A4A1-4667-85A6-AF1B6223C218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3669CEA0-A4A1-4667-85A6-AF1B6223C218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3669CEA0-A4A1-4667-85A6-AF1B6223C218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3669CEA0-A4A1-4667-85A6-AF1B6223C218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFC3C86-F021-4CA9-9721-8D8FECC43299}.Debug|Any CPU.ActiveCfg = Debug
+		{7DFC3C86-F021-4CA9-9721-8D8FECC43299}.Release|Any CPU.ActiveCfg = Release
+		{F1D192C4-1E94-4FCE-B9CF-4286429FC99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D192C4-1E94-4FCE-B9CF-4286429FC99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D192C4-1E94-4FCE-B9CF-4286429FC99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D192C4-1E94-4FCE-B9CF-4286429FC99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

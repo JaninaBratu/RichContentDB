@@ -1,0 +1,60 @@
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe.config
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csprojResolveAssemblyReference.cache
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.Form1.resources
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.Properties.Resources.resources
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csproj.GenerateResource.Cache
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.exe
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe.config
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\FormWindows.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.xml
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.xml
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.Form1.resources
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.Properties.Resources.resources
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csproj.GenerateResource.Cache
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.exe
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Release\FormWindows.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe.config
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\FormWindows.exe
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\FormWindows.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\FormWindows.exe
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\FormWindows.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.dll
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.dll
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.dll
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.dll
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.dll
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.BL.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.DAL.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\RCD.Model.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.xml
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\EntityFramework.SqlServer.xml
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csprojResolveAssemblyReference.cache
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.Form1.resources
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\FormWindows.Properties.Resources.resources
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\RCD.FormWindows.csproj.GenerateResource.Cache
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\TestWindowsForm.exe
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\bin\Release\TestWindowsForm.pdb
+D:\Work\NEW_rep\Solution\WindowsFormsApplication2\obj\Release\FormWindows.Form2.resources

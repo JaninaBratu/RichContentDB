@@ -1,0 +1,40 @@
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsService1\obj\Release\RCD.WindowsService.csprojResolveAssemblyReference.cache
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsService1\obj\Release\WindowsService1.ProjectInstaller.resources
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsService1\obj\Release\RCD.WindowsService.csproj.GenerateResource.Cache
+D:\Work\new_Repository\practice_rcd_jb\Solution\WindowsService1\bin\Release\Netrom.WindowsService.exe.config
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\Netrom.WindowsService.exe.config
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\obj\Release\RCD.WindowsService.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\obj\Release\WindowsService1.ProjectInstaller.resources
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\obj\Release\RCD.WindowsService.csproj.GenerateResource.Cache
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\Netrom.WindowsService.exe
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\Netrom.WindowsService.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\EntityFramework.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\EntityFramework.SqlServer.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.BL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.DAL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.Model.dll
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.DAL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\EntityFramework.xml
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\bin\Release\EntityFramework.SqlServer.xml
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\obj\Release\Netrom.WindowsService.exe
+E:\.Net Trainning\laur\practice_jb\Solution\WindowsService1\obj\Release\Netrom.WindowsService.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\Netrom.WindowsService.exe.config
+D:\Work\NEW_rep\Solution\WindowsService1\obj\Release\Netrom.WindowsService.exe
+D:\Work\NEW_rep\Solution\WindowsService1\obj\Release\Netrom.WindowsService.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\Netrom.WindowsService.exe
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\Netrom.WindowsService.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\EntityFramework.dll
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\EntityFramework.SqlServer.dll
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.BL.dll
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.DAL.dll
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.Model.dll
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.BL.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.DAL.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\RCD.Model.pdb
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\EntityFramework.xml
+D:\Work\NEW_rep\Solution\WindowsService1\bin\Release\EntityFramework.SqlServer.xml
+D:\Work\NEW_rep\Solution\WindowsService1\obj\Release\RCD.WindowsService.csprojResolveAssemblyReference.cache
+D:\Work\NEW_rep\Solution\WindowsService1\obj\Release\WindowsService1.ProjectInstaller.resources
+D:\Work\NEW_rep\Solution\WindowsService1\obj\Release\RCD.WindowsService.csproj.GenerateResource.Cache

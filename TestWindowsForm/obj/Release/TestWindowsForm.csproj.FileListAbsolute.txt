@@ -1,0 +1,9 @@
+D:\Work\NEW_rep\Solution\TestWindowsForm\bin\Release\TestWindowsForm.exe.config
+D:\Work\NEW_rep\Solution\TestWindowsForm\bin\Release\TestWindowsForm.exe
+D:\Work\NEW_rep\Solution\TestWindowsForm\bin\Release\TestWindowsForm.pdb
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.csprojResolveAssemblyReference.cache
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.Form1.resources
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.Properties.Resources.resources
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.csproj.GenerateResource.Cache
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.exe
+D:\Work\NEW_rep\Solution\TestWindowsForm\obj\Release\TestWindowsForm.pdb

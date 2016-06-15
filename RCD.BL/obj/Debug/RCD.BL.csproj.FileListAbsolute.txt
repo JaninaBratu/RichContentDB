@@ -1,0 +1,169 @@
+C:\Users\j.n.bratu\Desktop\RCD\Application\RCD\RCD.BL\bin\Debug\RCD.BL.dll
+C:\Users\j.n.bratu\Desktop\RCD\Application\RCD\RCD.BL\bin\Debug\RCD.BL.pdb
+C:\Users\j.n.bratu\Desktop\RCD\Application\RCD\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+C:\Users\j.n.bratu\Desktop\RCD\Application\RCD\RCD.BL\obj\Debug\RCD.BL.dll
+C:\Users\j.n.bratu\Desktop\RCD\Application\RCD\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+C:\Users\j.n.bratu\Desktop\practice_rcd_jb-master\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\microsoft\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\microsoft\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\microsoft\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\microsoft\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\microsoft\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\microsoft\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_rcd_jb-master\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\PracticeRCD\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\PracticeRCD\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\PracticeRCD\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\microsoft\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\andrei\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\andrei\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\andrei\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\andrei\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\SolutionFileExplorer\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\NEW_rep\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\NEW_rep\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\NEW_rep\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\NEW_rep\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb

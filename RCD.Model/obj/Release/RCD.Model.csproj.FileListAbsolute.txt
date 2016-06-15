@@ -1,0 +1,28 @@
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\RCD.Model.dll.config
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\RCD.Model.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\RCD.Model.pdb
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\EntityFramework.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\EntityFramework.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\obj\Release\RCD.Model.dll
+D:\Work\new_Repository\practice_rcd_jb\Solution\RCD.Model\obj\Release\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\RCD.Model.dll.config
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\RCD.Model.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\RCD.Model.pdb
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\EntityFramework.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\EntityFramework.xml
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.xml
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\obj\Release\RCD.Model.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\obj\Release\RCD.Model.dll
+E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\obj\Release\RCD.Model.pdb
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\RCD.Model.dll.config
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\RCD.Model.dll
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\RCD.Model.pdb
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\EntityFramework.dll
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\EntityFramework.xml
+D:\Work\NEW_rep\Solution\RCD.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Work\NEW_rep\Solution\RCD.Model\obj\Release\RCD.Model.dll
+D:\Work\NEW_rep\Solution\RCD.Model\obj\Release\RCD.Model.pdb
