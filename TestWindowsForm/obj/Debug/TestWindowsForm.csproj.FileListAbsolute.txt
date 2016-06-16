@@ -15,3 +15,12 @@ E:\.Net Trainning\laur\practice_jb\Solution\TestWindowsForm\obj\Debug\TestWindow
 E:\.Net Trainning\laur\practice_jb\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.exe
 E:\.Net Trainning\laur\practice_jb\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.pdb
 E:\.Net Trainning\laur\practice_jb\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.csprojResolveAssemblyReference.cache
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\bin\Debug\TestWindowsForm.exe.config
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\bin\Debug\TestWindowsForm.exe
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\bin\Debug\TestWindowsForm.pdb
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.csprojResolveAssemblyReference.cache
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.Form1.resources
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.Properties.Resources.resources
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.csproj.GenerateResource.Cache
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.exe
+D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.pdb

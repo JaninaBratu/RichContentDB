@@ -61,3 +61,25 @@ E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Debug\E
 E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.exe
 E:\.Net Trainning\laur\practice_jb\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csprojResolveAssemblyReference.cache
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.Properties.Resources.resources
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csproj.GenerateResource.Cache
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.exe.config
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.exe
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.dll
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.BL.dll
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.DAL.dll
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.Model.dll
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\TestWindowsForm.exe
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.BL.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.DAL.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.Model.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\TestWindowsForm.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.xml
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.exe
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.pdb
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.MainForm.resources
+D:\Work\DidacticApp\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.MetadataForm.resources

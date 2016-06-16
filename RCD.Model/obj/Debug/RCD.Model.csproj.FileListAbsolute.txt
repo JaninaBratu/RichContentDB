@@ -156,3 +156,12 @@ E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Debug\EntityFramework.
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\obj\Debug\RCD.Model.dll
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.Model\obj\Debug\RCD.Model.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\RCD.Model.dll.config
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\RCD.Model.dll
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\RCD.Model.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\EntityFramework.dll
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\EntityFramework.xml
+D:\Work\DidacticApp\RichContentDB\RCD.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\DidacticApp\RichContentDB\RCD.Model\obj\Debug\RCD.Model.dll
+D:\Work\DidacticApp\RichContentDB\RCD.Model\obj\Debug\RCD.Model.pdb

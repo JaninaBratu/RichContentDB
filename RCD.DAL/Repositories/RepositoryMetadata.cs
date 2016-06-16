@@ -70,5 +70,31 @@ namespace RCD.DAL.Repositories
                 }
             }
         }
+
+        //added
+        public static int GetMetadataId(string metadataValue)
+        {
+            int metadataId;
+            using (var context = new ModelContext())
+            {
+
+                try
+                {
+                    metadataId = context.Metadata
+                               .Where(m => m.Value== metadataValue)
+                               .Select(m => m.MetadataId)
+                               .FirstOrDefault();
+
+                }
+                catch (Exception)
+                {
+                    metadataId = -1;
+                }
+
+            }
+
+            return metadataId;
+        }
+        //end
     }
 }

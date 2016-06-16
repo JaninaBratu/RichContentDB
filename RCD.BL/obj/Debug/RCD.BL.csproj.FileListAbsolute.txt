@@ -167,3 +167,17 @@ E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.xml
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\obj\Debug\RCD.BL.dll
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.pdb

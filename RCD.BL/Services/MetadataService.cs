@@ -73,6 +73,12 @@ namespace RCD.BL.Services
         {
             return RepositoryMetadata.GetAllMetadataFiles();
         }
+
+        public static int GetMetadataId(string valueMetadata)
+        {
+            return RepositoryMetadata.GetMetadataId(valueMetadata);
+        }
+        
       }
     }
 

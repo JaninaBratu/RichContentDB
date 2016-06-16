@@ -188,3 +188,17 @@ E:\.Net Trainning\laur\practice_jb\Solution\RCD.DAL\bin\Debug\EntityFramework.xm
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.DAL\obj\Debug\RCD.DAL.dll
 E:\.Net Trainning\laur\practice_jb\Solution\RCD.DAL\obj\Debug\RCD.DAL.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.Migrations.init_tbl.resources
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.csproj.GenerateResource.Cache
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.dll.config
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.dll
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\EntityFramework.dll
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\RCD.Model.dll
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\RCD.Model.pdb
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\EntityFramework.xml
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.csprojResolveAssemblyReference.cache
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.dll
+D:\Work\DidacticApp\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.pdb
