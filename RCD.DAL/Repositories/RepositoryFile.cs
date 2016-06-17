@@ -3,8 +3,7 @@ using RCD.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace RCD.DAL
 {
@@ -63,6 +62,21 @@ namespace RCD.DAL
                 return result; 
             }
         }
+
+        //public static File GetFileById(int fileId)
+        //{
+        //    using (var context = new ModelContext())
+        //    {
+        //        return (from f in context.Files
+        //                join m in context.Metadata
+        //                on f.FileId equals m.FileId
+        //                join mt in context.MetadataTypes
+        //                on m.MetadataTypeId equals mt.MetadataTypeId
+        //                where m.Value == valueOfMetadata && mt.Name == nameOfMetadata
+        //                select f);
+        //    }
+                
+        //}
 
         public static int SaveFileInDb(Model.File file, int extensionId)
         {

@@ -51,5 +51,10 @@ namespace RCD.BL.Services
         {
             return RepositoryFile.GetFile(fileName);
         }
+
+        //public static File GetFileById(int fileId)
+        //{
+        //    return RepositoryFile.GetFileById(fileId);
+        //}
     }
 }

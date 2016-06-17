@@ -11,6 +11,8 @@ namespace FormWindows
     public partial class MetadataForm : Form
     {
 
+        bool isOk = false;
+
         public MetadataForm(MainForm mainForm)
         {
 
@@ -53,12 +55,16 @@ namespace FormWindows
 
         private void button2_Click(object sender, System.EventArgs e)
         {
-            bool isOk = false;
+            //            [4:26:12 PM]
+            //        Andrei Coman: trebuie sa vezi daca custom medata name mai exista in metadata types
+            //[4:26:15 PM] Andrei Coman: daca nu e o bagi
+            ////[4:26:49 PM] Andrei Coman: daca era deja in metadata types trebuie s-o cauti daca este la fisierul ala
+            //deci verifici doar daca id - ul din metadatatype este deja folosit la fisierul asta in metadate
 
-            Metadata newMetadata = new Metadata();
+              Metadata newMetadata = new Metadata();
             newMetadata.Value = textBox2.Text;
 
-            isOk = ValidateMetadata(textBox1.Text, textBox2.Text);
+            isOk = ValidationOfMetadata(textBox1.Text, int.Parse(dataGridView1.Rows[0].Cells[1].Value.ToString()));
             if (isOk)
             {
                 MetadataService.SaveMetadataIntoDb(newMetadata, textBox1.Text, int.Parse(dataGridView1.Rows[0].Cells[1].Value.ToString()));
@@ -66,32 +72,28 @@ namespace FormWindows
                 textBox2.Text = "";
                 dataGridView1.Refresh();
             }
+            else {
+                textBox1.Text = "";
+                textBox2.Text = "";
+            }
         }
 
-        private bool ValidateMetadata(string nameOfMetadata, string valueOfMetadtaa)
+        private bool ValidationOfMetadata(string metadataType, int fileId)
         {
-            bool isOk = false;
-
-            int idMetadataType = MetadataTypeService.GetMetadataTypeId(nameOfMetadata);
-            if (idMetadataType != 0 && idMetadataType != -1)
+            List<int> resultList = MetadataTypeService.GetMetadataType(metadataType, fileId);
+            if (resultList.Count == 2)
             {
-                int idMetadata = MetadataService.GetMetadataId(valueOfMetadtaa);
-                if (idMetadata != 0 && idMetadata != -1)
+                if ((resultList[0] == 0 || resultList[0] == -1) && (resultList[1] == 0 || resultList[1] == -1))
                 {
-                    MessageBox.Show("The metadata is already in the database. Please another one!");
+                    return true;
                 }
                 else
                 {
-
-                    isOk = true;
+                    MessageBox.Show("The metadata is already in the database. Please try again!");
                 }
             }
-            else
-            {
-                isOk = true;
-            }
 
-            return isOk;
+            return false;
         }
 
     }

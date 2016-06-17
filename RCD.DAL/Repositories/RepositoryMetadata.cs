@@ -72,28 +72,42 @@ namespace RCD.DAL.Repositories
         }
 
         //added
-        public static int GetMetadataId(string metadataValue)
+        public static List<int> GetListOfMetadataId(string nameOfMetadata, string metadataOfValue)
         {
-            int metadataId;
+            List<int> listOfId = new List<int>();
+
             using (var context = new ModelContext())
             {
 
                 try
                 {
-                    metadataId = context.Metadata
-                               .Where(m => m.Value== metadataValue)
+                    listOfId.Add(context.Metadata
+                               .Where(m => m.Value == metadataOfValue)
                                .Select(m => m.MetadataId)
-                               .FirstOrDefault();
+                               .FirstOrDefault());
 
+
+                    listOfId.Add(context.MetadataTypes
+                               .Where(mt => mt.Name == nameOfMetadata)
+                               .Select(mt => mt.MetadataTypeId)
+                               .FirstOrDefault());
                 }
                 catch (Exception)
                 {
-                    metadataId = -1;
+                    throw;
                 }
 
             }
 
-            return metadataId;
+            if (listOfId.Count ==2 )
+            {
+                return listOfId;
+            }
+            else
+            {
+                return null;
+            }
+            
         }
         //end
     }

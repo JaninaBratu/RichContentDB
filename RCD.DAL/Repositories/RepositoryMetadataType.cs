@@ -27,6 +27,27 @@ namespace RCD.DAL.Repositories
                 return metaType.MetadataTypeId;
         }
 
+        //new added
+        public static List<int> GetMetadataType(string metadataType, int fileId)
+        {
+            List<int> resultList = new List<int>();
+
+            using (var context = new ModelContext())
+            {
+                var countMetaType = (from mt in context.MetadataTypes
+                         where mt.Name == metadataType
+                         select mt.MetadataTypeId).Count();
+
+                var countFile = (from f in context.Files
+                                  where f.FileId == fileId
+                                  select f.FileId).Count();
+
+                resultList.Add(countMetaType);
+                resultList.Add(countFile);
+            }
+            return resultList;
+        }
+        //end
 
         public static int GetMetadataTypeByName(string metaType)
         {

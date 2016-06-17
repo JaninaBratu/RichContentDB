@@ -74,9 +74,9 @@ namespace RCD.BL.Services
             return RepositoryMetadata.GetAllMetadataFiles();
         }
 
-        public static int GetMetadataId(string valueMetadata)
+        public static List<int> GetListOfMetadataId(string nameOfMetadata, string valueOfMetadata)
         {
-            return RepositoryMetadata.GetMetadataId(valueMetadata);
+            return RepositoryMetadata.GetListOfMetadataId(nameOfMetadata, valueOfMetadata);
         }
         
       }

@@ -15,8 +15,7 @@ namespace RCD.BL.Services
         {
             return RepositoryMetadataType.SaveMetadataTypeInDb(metaType);
         }
-
-
+        
         public static int GetMetadataTypeById(string metadataTypeName)
         {
             var metadataTypeId = RepositoryMetadataType.GetMetadataTypeByName(metadataTypeName);
@@ -35,6 +34,9 @@ namespace RCD.BL.Services
             return RepositoryMetadataType.GetMetadataTypeByName(metaType);
         }
 
-
+        public static List<int> GetMetadataType(string metadataType, int fileId)
+        {
+            return RepositoryMetadataType.GetMetadataType(metadataType, fileId);
+        }
     }
 }
