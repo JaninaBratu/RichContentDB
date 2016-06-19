@@ -19,6 +19,11 @@ namespace RCD.BL.Services
             var file = new Model.File();
             file.Name = fileInfo.Name;
             file.Path = destinationFile;
+          
+            //added
+            file.CreateDate = fileInfo.CreationTime;
+            //end
+
             Util.Log(String.Format("File Created:15 "));
             var fileId = RepositoryFile.SaveFileInDb(file, GetFileExtensionId(fileInfo));
             Util.Log(String.Format("File Created:16 "));
@@ -56,5 +61,10 @@ namespace RCD.BL.Services
         //{
         //    return RepositoryFile.GetFileById(fileId);
         //}
+
+        public static List<Model.File> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
+        {
+            return RepositoryFile.SearchFileByDatePicker(dateFrom, dateTo);
+        }
     }
 }

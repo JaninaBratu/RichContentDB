@@ -10,7 +10,7 @@ namespace RCD.DAL
 {
     public class ModelContext : DbContext
     {
-        public ModelContext() : base("Dbconnection")
+        public ModelContext() : base("Dbconnection2")
         {
         }
 

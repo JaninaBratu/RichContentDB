@@ -9,7 +9,7 @@ namespace RCD.DAL.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(RCD.DAL.ModelContext context)
@@ -26,7 +26,6 @@ namespace RCD.DAL.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-            context.Users.AddOrUpdate(p => p.Username, new Model.User { Username = "Andrew Peters", Password = "pasda", IsActive = true, IsAdmin = true });
         }
     }
 }

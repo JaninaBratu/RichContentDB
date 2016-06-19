@@ -39,7 +39,7 @@ namespace RCD.WindowsService.SharingFiles
             try
             {
                 FileSystemWatcher watcher = new FileSystemWatcher(_sharedFolder);
-               // watcher.Created += new FileSystemEventHandler(OnChanged);
+                watcher.Created += new FileSystemEventHandler(OnChanged);
                 //watcher.Deleted += new FileSystemEventHandler(OnChanged);
                 watcher.Changed += new FileSystemEventHandler(OnChanged);
                 watcher.EnableRaisingEvents = true;

@@ -1,5 +1,4 @@
 ﻿using RCD.BL.Services;
-using RCD.DAL.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -7,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 using FormWindows;
+using RCD.DAL.ViewModel;
 
 namespace RCD.FormWindows
 {
@@ -19,34 +19,14 @@ namespace RCD.FormWindows
             
         }
 
-        public MainForm(MainForm frm)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            var metadataDictionary = CreateDateDictionary();
             var files = FileService.GetFileDetails();
-            InitializeDataGridView(files, metadataDictionary);
+            InitializeDataGridView(files);
 
         }
 
-        private Dictionary<int, string> CreateDateDictionary()
-        {
-            var creationDateId = MetadataTypeService.GetMetadataTypeByName(GetCreationDateName());
-            var metadata = MetadataService.GetMetadataByType(creationDateId);
-
-            Dictionary<int, string> dictionary = new Dictionary<int, string>();
-            foreach (var met in metadata)
-            {
-                dictionary.Add(met.FileId, met.Value);
-            }
-
-            return dictionary;
-        }
-
-        private void InitializeDataGridView(List<DAL.ViewModel.FileViewModel> files, Dictionary<int, string> dictionary)
+        private void InitializeDataGridView(List<DAL.ViewModel.FileViewModel> files)
         {
             dataGridView1.Rows.Clear();
             dataGridView1.AutoSize = true;
@@ -60,8 +40,7 @@ namespace RCD.FormWindows
 
             foreach (var rowArray in files)
             {
-                string createDate = dictionary.ContainsKey(rowArray.FileId) ? dictionary[rowArray.FileId] : " - ";
-                dataGridView1.Rows.Add(new string[] { rowArray.FileId.ToString(), rowArray.FileName, rowArray.FileType.ToUpper(), createDate });
+                dataGridView1.Rows.Add(new string[] { rowArray.FileId.ToString(), rowArray.FileName, rowArray.FileType.ToUpper(), rowArray.CreationDate.ToString() });
             }
             dataGridView1.Refresh();
 
@@ -87,13 +66,11 @@ namespace RCD.FormWindows
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            var metadataDictionary = CreateDateDictionary();
-
             try
             {
                 var files =  FileService.SearchFile(text_search.Text);
                 text_search.Clear();
-                InitializeDataGridView(files, metadataDictionary);
+                InitializeDataGridView(files);
             }
             catch (Exception)
             {
@@ -131,6 +108,34 @@ namespace RCD.FormWindows
                 int fileId = int.Parse(dataGridView1.Rows[index].Cells[0].Value.ToString());
                 MetadataForm frm = new MetadataForm(fileId);
                 frm.Show();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DateTime dateFrom = dateTimePicker1.Value.Date;
+            DateTime dateTo = dateTimePicker2.Value.Date;
+
+            List<Model.File> listOfFiles = FileService.SearchFileByDatePicker(dateFrom, dateTo);
+            List<FileViewModel> listOfFileViewModel = new List<FileViewModel>();
+            for (int j= 0; j < listOfFiles.Count; j++)
+            {
+                    FileViewModel fileViewModel = new FileViewModel();
+                    if (j < listOfFiles.Count)
+                    {
+                        fileViewModel.FileId = listOfFiles[j].FileId;
+                        fileViewModel.FileName = listOfFiles[j].Name;
+                        fileViewModel.FileType = listOfFiles[j].FileType.Name.ToString();
+                        fileViewModel.CreationDate = listOfFiles[j].CreateDate;
+
+                        listOfFileViewModel.Add(fileViewModel);
+
+                        //~FileViewModel(); how to call manually a destructor
+                        // using does not work unless you implement IDisposable
+                        // using one of the methods above will solve the problem in which a lott of objects
+                        //are being created over and over again
+                       
+                }
             }
         }
     }

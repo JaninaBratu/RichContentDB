@@ -24,3 +24,12 @@ D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.Prop
 D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.csproj.GenerateResource.Cache
 D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.exe
 D:\Work\DidacticApp\RichContentDB\TestWindowsForm\obj\Debug\TestWindowsForm.pdb
+E:\.Net Trainning\janina\Solution\TestWindowsForm\bin\Debug\TestWindowsForm.exe.config
+E:\.Net Trainning\janina\Solution\TestWindowsForm\bin\Debug\TestWindowsForm.exe
+E:\.Net Trainning\janina\Solution\TestWindowsForm\bin\Debug\TestWindowsForm.pdb
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.Form1.resources
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.Properties.Resources.resources
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.csproj.GenerateResource.Cache
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.exe
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.pdb
+E:\.Net Trainning\janina\Solution\TestWindowsForm\obj\Debug\TestWindowsForm.csprojResolveAssemblyReference.cache

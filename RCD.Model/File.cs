@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace RCD.Model
@@ -28,6 +25,7 @@ namespace RCD.Model
         public virtual FileType FileType { get; set; }
 
         public virtual List<Metadata> Metadata { get; set; }
-
+       
+        public DateTime CreateDate { get; set; }
     }
 }

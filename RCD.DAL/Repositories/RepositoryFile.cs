@@ -40,8 +40,8 @@ namespace RCD.DAL
                             {
                                 FileId = f.FileId,
                                 FileName = f.Name,
-                                FileType = f.FileType.Name
-
+                                FileType = f.FileType.Name,
+                                CreationDate = f.CreateDate
                             }).ToList();
                 }
             }
@@ -130,13 +130,33 @@ namespace RCD.DAL
             }
         }
 
+        public static List<Model.File> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
+        {
+            using (var context = new ModelContext())
+            {
+                try
+                {
+                    return (from f in context.Files
+                            join ft in context.FileTypes
+                            on f.FileType.FileTypeId equals ft.FileTypeId
+                            where f.CreateDate >= dateFrom && f.CreateDate <= dateTo
+                            select f).ToList();
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+                
+        }
+
         public static Model.File GetFile(int fileId)
         {
             using (var context = new ModelContext())
             {
                 try
                 {
-                    return context.Files.FirstOrDefault(f => f.FileId == fileId); ;
+                    return context.Files.FirstOrDefault(f => f.FileId == fileId); 
                     
                 }
                 catch (Exception)

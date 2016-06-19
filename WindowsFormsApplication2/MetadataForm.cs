@@ -55,13 +55,13 @@ namespace FormWindows
 
         private void button2_Click(object sender, System.EventArgs e)
         {
-            //            [4:26:12 PM]
+            //    [4:26:12 PM]
             //        Andrei Coman: trebuie sa vezi daca custom medata name mai exista in metadata types
             //[4:26:15 PM] Andrei Coman: daca nu e o bagi
             ////[4:26:49 PM] Andrei Coman: daca era deja in metadata types trebuie s-o cauti daca este la fisierul ala
             //deci verifici doar daca id - ul din metadatatype este deja folosit la fisierul asta in metadate
 
-              Metadata newMetadata = new Metadata();
+            Metadata newMetadata = new Metadata();
             newMetadata.Value = textBox2.Text;
 
             isOk = ValidationOfMetadata(textBox1.Text, int.Parse(dataGridView1.Rows[0].Cells[1].Value.ToString()));
@@ -83,7 +83,7 @@ namespace FormWindows
             List<int> resultList = MetadataTypeService.GetMetadataType(metadataType, fileId);
             if (resultList.Count == 2)
             {
-                if ((resultList[0] == 0 || resultList[0] == -1) && (resultList[1] == 0 || resultList[1] == -1))
+                if (resultList[0] >0 && resultList[1] >0)
                 {
                     return true;
                 }
