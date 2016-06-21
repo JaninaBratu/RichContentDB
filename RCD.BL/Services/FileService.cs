@@ -62,7 +62,7 @@ namespace RCD.BL.Services
         //    return RepositoryFile.GetFileById(fileId);
         //}
 
-        public static List<Model.File> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
+        public static List<FileViewModel> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
         {
             return RepositoryFile.SearchFileByDatePicker(dateFrom, dateTo);
         }

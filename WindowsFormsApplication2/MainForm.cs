@@ -116,27 +116,8 @@ namespace RCD.FormWindows
             DateTime dateFrom = dateTimePicker1.Value.Date;
             DateTime dateTo = dateTimePicker2.Value.Date;
 
-            List<Model.File> listOfFiles = FileService.SearchFileByDatePicker(dateFrom, dateTo);
-            List<FileViewModel> listOfFileViewModel = new List<FileViewModel>();
-            for (int j= 0; j < listOfFiles.Count; j++)
-            {
-                    FileViewModel fileViewModel = new FileViewModel();
-                    if (j < listOfFiles.Count)
-                    {
-                        fileViewModel.FileId = listOfFiles[j].FileId;
-                        fileViewModel.FileName = listOfFiles[j].Name;
-                        fileViewModel.FileType = listOfFiles[j].FileType.Name.ToString();
-                        fileViewModel.CreationDate = listOfFiles[j].CreateDate;
-
-                        listOfFileViewModel.Add(fileViewModel);
-
-                        //~FileViewModel(); how to call manually a destructor
-                        // using does not work unless you implement IDisposable
-                        // using one of the methods above will solve the problem in which a lott of objects
-                        //are being created over and over again
-                       
-                }
-            }
+            List<FileViewModel> listOfFiles = FileService.SearchFileByDatePicker(dateFrom, dateTo);
+            InitializeDataGridView(listOfFiles);
         }
     }
 }

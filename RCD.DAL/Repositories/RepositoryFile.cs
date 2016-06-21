@@ -130,7 +130,7 @@ namespace RCD.DAL
             }
         }
 
-        public static List<Model.File> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
+        public static List<FileViewModel> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
         {
             using (var context = new ModelContext())
             {
@@ -140,7 +140,12 @@ namespace RCD.DAL
                             join ft in context.FileTypes
                             on f.FileType.FileTypeId equals ft.FileTypeId
                             where f.CreateDate >= dateFrom && f.CreateDate <= dateTo
-                            select f).ToList();
+                            select new FileViewModel {
+                                FileId = f.FileId,
+                                FileName = f.Name,
+                                FileType = f.FileType.Name,
+                                CreationDate = f.CreateDate
+                            }).Distinct().ToList();
                 }
                 catch (Exception)
                 {
