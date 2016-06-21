@@ -13,7 +13,7 @@ namespace RCD.BL.Services
     
         public static void AddFile(string destinationFile)
         {
-            Util.Log(String.Format("File Created:14 "));
+            Util.Log(String.Format("FileTypes Created:14 "));
             var fileInfo = new FileInfo(destinationFile);
             
             var file = new Model.File();
@@ -24,11 +24,11 @@ namespace RCD.BL.Services
             file.CreateDate = fileInfo.CreationTime;
             //end
 
-            Util.Log(String.Format("File Created:15 "));
+            Util.Log(String.Format("FileTypes Created:15 "));
             var fileId = RepositoryFile.SaveFileInDb(file, GetFileExtensionId(fileInfo));
-            Util.Log(String.Format("File Created:16 "));
+            Util.Log(String.Format("FileTypes Created:16 "));
             //MetadataService.AddMetadata(fileInfo, fileId);
-            Util.Log(String.Format("File Created:17 "));
+            Util.Log(String.Format("FileTypes Created:17 "));
         }
 
         public static List<Model.File> GetFileInfo(int fileId)
@@ -57,7 +57,7 @@ namespace RCD.BL.Services
             return RepositoryFile.GetFile(fileName);
         }
 
-        //public static File GetFileById(int fileId)
+        //public static FileTypes GetFileById(int fileId)
         //{
         //    return RepositoryFile.GetFileById(fileId);
         //}

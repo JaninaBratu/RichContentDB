@@ -45,7 +45,7 @@ namespace RCD.WindowsService.SharingFiles
         public void StartFileSharingProcess()
         {
             Boolean isAlreadyShared = false;//the file is already shared
-            Util.Log(String.Format("File Created:3 {0}", _fileName));
+            Util.Log(String.Format("FileTypes Created:3 {0}", _fileName));
             string fileFullPath = Path.Combine(_sharedFolder, _fileName);//file location
 
             string newFileName = _fileName;
@@ -67,20 +67,20 @@ namespace RCD.WindowsService.SharingFiles
                 }
                 else
                 {
-                    Util.Log(String.Format("File Created:4 "));
+                    Util.Log(String.Format("FileTypes Created:4 "));
                     string tmpDestinationFile = Path.Combine(_destinationFolder, _fileName);
                     //check if the destination directory has another file with the same name
                     //if is true, check if the files are identical
                     if (File.Exists(tmpDestinationFile))
                     {
-                        Util.Log(String.Format("File Created:5 "));
+                        Util.Log(String.Format("FileTypes Created:5 "));
                         //isAlreadyShared = FileAction.FilesCompare(fileFullPath, tmpDestinationFile);
-                        Util.Log(String.Format("File Created:6 "));
+                        Util.Log(String.Format("FileTypes Created:6 "));
                     }
 
                     if (!isAlreadyShared)
                     {
-                        Util.Log(String.Format("File Created:7"));
+                        Util.Log(String.Format("FileTypes Created:7"));
                         newFileName = SetFileName(); //rename the file if the name is already used
                     }
 
@@ -93,7 +93,7 @@ namespace RCD.WindowsService.SharingFiles
                 //Move the file in the destnation direcotry
                 } else
                 {
-                    Util.Log(String.Format("File Created:9 "));
+                    Util.Log(String.Format("FileTypes Created:9 "));
                     string fullDestinationPath = Path.Combine(_destinationFolder, newFileName);
                     FileAction.MoveFile(fileFullPath, fullDestinationPath);
                 }
@@ -114,7 +114,7 @@ namespace RCD.WindowsService.SharingFiles
         private string SetFileName()
         {
             int count = 0;
-            Util.Log(String.Format("File Created:8 "));
+            Util.Log(String.Format("FileTypes Created:8 "));
             string tempFileName     = Path.GetFileNameWithoutExtension(_fileName);
             string extensionWithDot = Util.GetFileExtension(_fileName, true);
             string baseNewFullPath  = _destinationFolder;
@@ -128,7 +128,7 @@ namespace RCD.WindowsService.SharingFiles
                 tempFileName          = string.Format("{0}({1})", tempFileName, count++);
                 tempDestinationFolder = Path.Combine(baseNewFullPath, tempFileName);
             }
-            Util.Log(String.Format("File Created:8 "));
+            Util.Log(String.Format("FileTypes Created:8 "));
             return tempFileName + extensionWithDot;
         }
 

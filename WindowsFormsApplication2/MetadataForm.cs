@@ -41,9 +41,9 @@ namespace FormWindows
 
             List<Metadata> listOfMetadata = file.Metadata;
 
-            dataGridView1.Rows.Add(new string[] { "File Id" , file.FileId.ToString()});
-            dataGridView1.Rows.Add(new string[] { "File Name", file.Name});
-            dataGridView1.Rows.Add(new string[] { "File Type", file.FileType.Name});
+            dataGridView1.Rows.Add(new string[] { "FileTypes Id" , file.FileId.ToString()});
+            dataGridView1.Rows.Add(new string[] { "FileTypes Name", file.Name});
+            dataGridView1.Rows.Add(new string[] { "FileTypes Type", file.FileType.Name});
 
             for (int i = 0; i < listOfMetadata.Count; i++)
             {

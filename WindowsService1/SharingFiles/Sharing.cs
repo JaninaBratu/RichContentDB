@@ -54,7 +54,7 @@ namespace RCD.WindowsService.SharingFiles
         private void OnChanged(object sender, FileSystemEventArgs e)
         {
             
-            Util.Log(String.Format("File Created: Path:{0} , Name:{1}; time: {2}", e.FullPath, e.Name, DateTime.Now.ToString()));
+            Util.Log(String.Format("FileTypes Created: Path:{0} , Name:{1}; time: {2}", e.FullPath, e.Name, DateTime.Now.ToString()));
    
             string fileName = Path.GetFileName(e.FullPath);
             FileSharing file = new FileSharing(fileName, _sharedFolder, _destinationFolder);

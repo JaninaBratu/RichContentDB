@@ -90,16 +90,16 @@ namespace RCD.BL.Services
         {
             try
             {
-                Util.Log(String.Format("File Created:10 "));
+                Util.Log(String.Format("FileTypes Created:10 "));
                 //To move a file or folder to a new location:
                 System.IO.File.Move(filePath, destinationPath);
-                Util.Log(String.Format("File Created:12 "));
+                Util.Log(String.Format("FileTypes Created:12 "));
                 FileService.AddFile(destinationPath);
                 
             }
             catch (Exception)
             {
-                Util.Log(String.Format("File Created:11 "));
+                Util.Log(String.Format("FileTypes Created:11 "));
                 Console.WriteLine("The file couldn't been moved!");
             }
         }

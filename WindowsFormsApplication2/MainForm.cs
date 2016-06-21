@@ -33,9 +33,9 @@ namespace RCD.FormWindows
 
             dataGridView1.ColumnCount = 4;
 
-            dataGridView1.Columns[0].Name = "File Id";
-            dataGridView1.Columns[1].Name = "File Name";
-            dataGridView1.Columns[2].Name = "File Type";
+            dataGridView1.Columns[0].Name = "FileTypes Id";
+            dataGridView1.Columns[1].Name = "FileTypes Name";
+            dataGridView1.Columns[2].Name = "FileTypes Type";
             dataGridView1.Columns[3].Name = "Creation Date";
 
             foreach (var rowArray in files)

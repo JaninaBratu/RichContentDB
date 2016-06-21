@@ -63,7 +63,7 @@ namespace RCD.DAL
             }
         }
 
-        //public static File GetFileById(int fileId)
+        //public static FileTypes GetFileById(int fileId)
         //{
         //    using (var context = new ModelContext())
         //    {
@@ -87,7 +87,7 @@ namespace RCD.DAL
                 {
                     file.User = context.Users.FirstOrDefault(usr => usr.UserId == 1);
                     file.FileType = context.FileTypes.FirstOrDefault(ft => ft.FileTypeId == extensionId);
-                    //Add File object into File DBset
+                    //Add FileTypes object into FileTypes DBset
                     context.Files.Add(file);
 
                     // call SaveChanges method to save type into database
@@ -115,7 +115,7 @@ namespace RCD.DAL
                             on f.FileId equals m.FileId
                             join mt in context.MetadataTypes
                             on m.MetadataTypeId equals mt.MetadataTypeId
-                            where f.Name.Contains(searchedFile) || ft.Name.Contains(searchedFile) || m.Value.Contains(searchedFile)
+                            where (f.Name.Contains(searchedFile) || ft.Name.Contains(searchedFile) || m.Value.Contains(searchedFile))
                             select new FileViewModel
                             {
                                 FileId = f.FileId,
@@ -128,6 +128,27 @@ namespace RCD.DAL
                     throw;
                 }
             }
+        }
+
+        public static List<FileViewModel> SearchThroughDinamycQuery(string condition1, DateTime condition2, DateTime condition3)
+        {
+            ModelContext mContext = new ModelContext();
+            IQueryable<Model.File> queryFiles = mContext.Files;
+            IQueryable<FileType> queryFileType = mContext.FileTypes;
+            IQueryable<Metadata> queryMetadata = mContext.Metadata;
+            IQueryable<MetadataType> queryMetadataTypes = mContext.MetadataTypes;
+            IQueryable<FileViewModel> resultQuery = null;
+
+            if (condition1 != null || condition1 != "")
+            {
+                //resultQuery = from f in queryFiles
+                //              join ft in queryFileType
+                //              on f.FileType.FileTypeId equals ft.FileTypeId;
+                              //Where(f => f.Name == condition1)
+            }
+
+
+                return null;
         }
 
         public static List<FileViewModel> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
