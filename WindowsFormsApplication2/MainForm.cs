@@ -40,7 +40,7 @@ namespace RCD.FormWindows
 
             foreach (var rowArray in files)
             {
-                dataGridView1.Rows.Add(new string[] { rowArray.FileId.ToString(), rowArray.FileName, rowArray.FileType.ToUpper(), rowArray.CreationDate.ToString() });
+                dataGridView1.Rows.Add(new string[] { rowArray.FileId.ToString(), rowArray.Name, rowArray.FileType.ToUpper(), rowArray.CreationDate.ToString() });
             }
             dataGridView1.Refresh();
 
@@ -68,9 +68,19 @@ namespace RCD.FormWindows
         {
             try
             {
-                var files =  FileService.SearchFile(text_search.Text);
-                text_search.Clear();
-                InitializeDataGridView(files);
+                DateTime dateFrom = dateTimePicker1.Value.Date;
+                DateTime dateTo = dateTimePicker2.Value.Date;
+                string searchedText = text_search.Text;
+
+                FilterViewModel filterViewM = new FilterViewModel(searchedText, dateFrom, dateTo);
+                List<FileViewModel> listOfFiles = FileService.SearchByFilters(filterViewM);
+
+                //reset filters
+                text_search.Text = "";
+                dateTimePicker1.Value = DateTime.Now.Date;
+                dateTimePicker2.Value = DateTime.Now.Date;
+
+                InitializeDataGridView(listOfFiles);
             }
             catch (Exception)
             {
@@ -109,15 +119,6 @@ namespace RCD.FormWindows
                 MetadataForm frm = new MetadataForm(fileId);
                 frm.Show();
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            DateTime dateFrom = dateTimePicker1.Value.Date;
-            DateTime dateTo = dateTimePicker2.Value.Date;
-
-            List<FileViewModel> listOfFiles = FileService.SearchFileByDatePicker(dateFrom, dateTo);
-            InitializeDataGridView(listOfFiles);
         }
     }
 }

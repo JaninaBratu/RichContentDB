@@ -39,7 +39,7 @@ namespace RCD.DAL
                             select new ViewModel.FileViewModel
                             {
                                 FileId = f.FileId,
-                                FileName = f.Name,
+                                Name = f.Name,
                                 FileType = f.FileType.Name,
                                 CreationDate = f.CreateDate
                             }).ToList();
@@ -119,7 +119,7 @@ namespace RCD.DAL
                             select new FileViewModel
                             {
                                 FileId = f.FileId,
-                                FileName = f.Name,
+                                Name = f.Name,
                                 FileType = f.FileType.Name
                             }).Distinct().ToList();
                 }
@@ -128,27 +128,6 @@ namespace RCD.DAL
                     throw;
                 }
             }
-        }
-
-        public static List<FileViewModel> SearchThroughDinamycQuery(string condition1, DateTime condition2, DateTime condition3)
-        {
-            ModelContext mContext = new ModelContext();
-            IQueryable<Model.File> queryFiles = mContext.Files;
-            IQueryable<FileType> queryFileType = mContext.FileTypes;
-            IQueryable<Metadata> queryMetadata = mContext.Metadata;
-            IQueryable<MetadataType> queryMetadataTypes = mContext.MetadataTypes;
-            IQueryable<FileViewModel> resultQuery = null;
-
-            if (condition1 != null || condition1 != "")
-            {
-                //resultQuery = from f in queryFiles
-                //              join ft in queryFileType
-                //              on f.FileType.FileTypeId equals ft.FileTypeId;
-                              //Where(f => f.Name == condition1)
-            }
-
-
-                return null;
         }
 
         public static List<FileViewModel> SearchFileByDatePicker(DateTime dateFrom, DateTime dateTo)
@@ -163,7 +142,7 @@ namespace RCD.DAL
                             where f.CreateDate >= dateFrom && f.CreateDate <= dateTo
                             select new FileViewModel {
                                 FileId = f.FileId,
-                                FileName = f.Name,
+                                Name = f.Name,
                                 FileType = f.FileType.Name,
                                 CreationDate = f.CreateDate
                             }).Distinct().ToList();
@@ -174,6 +153,40 @@ namespace RCD.DAL
                 }
             }
                 
+        }
+
+        public static List<FileViewModel> SearchByFilters(FilterViewModel filter)
+        {
+
+            using (var context = new ModelContext())
+                {
+                    var result = (from f in context.Files
+                            join ft in context.FileTypes
+                            on f.FileType.FileTypeId equals ft.FileTypeId
+                            where f.Name == filter.searchText || ft.Name == filter.searchText
+                            select new FileViewModel
+                            {
+                                FileId = f.FileId,
+                                Name = f.Name,
+                                FileType = f.FileType.Name,
+                                CreationDate = f.CreateDate
+                            });
+
+                    if (!string.IsNullOrEmpty(filter.searchText))
+                    {
+                        result = result.Where(f => f.Name == filter.searchText);
+                    }
+                    if (filter.dateFrom != null)
+                    {
+                        result = result.Where(f => f.CreationDate >= filter.dateFrom);
+                    }
+                    if (filter.dateTill != null)
+                    {
+                        result = result.Where(f => f.CreationDate <= filter.dateTill);
+                    }
+                    return result.Distinct().ToList();
+
+            }
         }
 
         public static Model.File GetFile(int fileId)

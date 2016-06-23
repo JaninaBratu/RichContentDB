@@ -66,5 +66,10 @@ namespace RCD.BL.Services
         {
             return RepositoryFile.SearchFileByDatePicker(dateFrom, dateTo);
         }
+
+        public static List<FileViewModel> SearchByFilters(FilterViewModel filterViewModel)
+        {
+            return RepositoryFile.SearchByFilters(filterViewModel);
+        }
     }
 }

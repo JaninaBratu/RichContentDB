@@ -68,6 +68,7 @@
     <Compile Include="Repositories\RepositoryMetadata.cs" />
     <Compile Include="Repositories\RepositoryMetadataType.cs" />
     <Compile Include="ViewModel\FileViewModel.cs" />
+    <Compile Include="ViewModel\FilterViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
