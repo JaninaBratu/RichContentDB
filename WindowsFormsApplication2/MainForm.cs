@@ -16,14 +16,13 @@ namespace RCD.FormWindows
         public MainForm()
         {
             InitializeComponent();
-            
+            InitializeComboBox();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             var files = FileService.GetFileDetails();
             InitializeDataGridView(files);
-
         }
 
         private void InitializeDataGridView(List<DAL.ViewModel.FileViewModel> files)
@@ -107,8 +106,6 @@ namespace RCD.FormWindows
             }
         }
 
-
-
         private void button2_Click(object sender, EventArgs e)
         {
             Hide();
@@ -118,6 +115,38 @@ namespace RCD.FormWindows
                 int fileId = int.Parse(dataGridView1.Rows[index].Cells[0].Value.ToString());
                 MetadataForm frm = new MetadataForm(fileId);
                 frm.Show();
+            }
+        }
+
+        private void InitializeComboBox()
+        {
+            List<string> listOfFileTypes = FileTypeService.GetFileTypes();
+            DataGridViewComboBoxColumn comboBoxColumn = new DataGridViewComboBoxColumn();
+            comboBoxColumn.HeaderText = "FileType";
+
+            //method 1: 
+            //comboBoxColumn.DataSource = listOfFileTypes;
+
+            //method 2: 
+            //comboBoxColumn.Items.Add("");
+            //for (int i = 0; i < listOfFileTypes.Count; i++)
+            //{
+            //    comboBoxColumn.Items.Add(listOfFileTypes[i]);
+            //}
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndexChanged += new EventHandler(ComboBox_SelectedIndexChanged);
+        }
+
+        private void ComboBox_SelectedIndexChanged(Object sender, EventArgs e)
+        {
+            string selectedType = comboBox1.Text;
+            if (selectedType != "")
+            {
+                MessageBox.Show(selectedType);
             }
         }
     }

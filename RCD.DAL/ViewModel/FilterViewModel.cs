@@ -8,15 +8,15 @@ namespace RCD.DAL.ViewModel
 {
     public class FilterViewModel
     {
-        public string searchText { get; set; }
-        public DateTime dateFrom { get; set; }
-        public DateTime dateTill { get; set; }
+        public string SearchText { get; set; }
+        public DateTime DateFrom { get; set; }
+        public DateTime DateTill { get; set; }
 
         public FilterViewModel(string text, DateTime dateStart, DateTime dateEnd)
         {
-            searchText = text;
-            dateFrom = dateStart;
-            dateTill = dateEnd;
+            SearchText = text;
+            DateFrom = dateStart;
+            DateTill = dateEnd;
         }
     }
 }

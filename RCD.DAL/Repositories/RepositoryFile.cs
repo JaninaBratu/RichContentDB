@@ -63,21 +63,6 @@ namespace RCD.DAL
             }
         }
 
-        //public static FileTypes GetFileById(int fileId)
-        //{
-        //    using (var context = new ModelContext())
-        //    {
-        //        return (from f in context.Files
-        //                join m in context.Metadata
-        //                on f.FileId equals m.FileId
-        //                join mt in context.MetadataTypes
-        //                on m.MetadataTypeId equals mt.MetadataTypeId
-        //                where m.Value == valueOfMetadata && mt.Name == nameOfMetadata
-        //                select f);
-        //    }
-                
-        //}
-
         public static int SaveFileInDb(Model.File file, int extensionId)
         {
             //create DBContext object
@@ -163,7 +148,7 @@ namespace RCD.DAL
                     var result = (from f in context.Files
                             join ft in context.FileTypes
                             on f.FileType.FileTypeId equals ft.FileTypeId
-                            where f.Name == filter.searchText || ft.Name == filter.searchText
+                            //## where f.Name == filter.SearchText || ft.Name == filter.SearchText
                             select new FileViewModel
                             {
                                 FileId = f.FileId,
@@ -172,17 +157,17 @@ namespace RCD.DAL
                                 CreationDate = f.CreateDate
                             });
 
-                    if (!string.IsNullOrEmpty(filter.searchText))
+                    if (!string.IsNullOrEmpty(filter.SearchText))
                     {
-                        result = result.Where(f => f.Name == filter.searchText);
+                        result = result.Where(f => f.Name.ToLower().Contains(filter.SearchText) || f.FileType.ToLower().Contains(filter.SearchText));
                     }
-                    if (filter.dateFrom != null)
+                    if (filter.DateFrom != null)
                     {
-                        result = result.Where(f => f.CreationDate >= filter.dateFrom);
+                        result = result.Where(f => f.CreationDate >= filter.DateFrom);
                     }
-                    if (filter.dateTill != null)
+                    if (filter.DateTill != null)
                     {
-                        result = result.Where(f => f.CreationDate <= filter.dateTill);
+                        result = result.Where(f => f.CreationDate <= filter.DateTill);
                     }
                     return result.Distinct().ToList();
 

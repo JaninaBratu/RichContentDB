@@ -55,12 +55,6 @@ namespace FormWindows
 
         private void button2_Click(object sender, System.EventArgs e)
         {
-            //    [4:26:12 PM]
-            //        Andrei Coman: trebuie sa vezi daca custom medata name mai exista in metadata types
-            //[4:26:15 PM] Andrei Coman: daca nu e o bagi
-            ////[4:26:49 PM] Andrei Coman: daca era deja in metadata types trebuie s-o cauti daca este la fisierul ala
-            //deci verifici doar daca id - ul din metadatatype este deja folosit la fisierul asta in metadate
-
             Metadata newMetadata = new Metadata();
             newMetadata.Value = textBox2.Text;
 
