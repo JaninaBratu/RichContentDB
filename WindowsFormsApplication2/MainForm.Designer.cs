@@ -35,13 +35,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // getFiles
             // 
             this.getFiles.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.getFiles.Location = new System.Drawing.Point(794, 192);
+            this.getFiles.Location = new System.Drawing.Point(718, 12);
             this.getFiles.Name = "getFiles";
             this.getFiles.Size = new System.Drawing.Size(75, 23);
             this.getFiles.TabIndex = 1;
@@ -51,14 +52,14 @@
             // 
             // text_search
             // 
-            this.text_search.Location = new System.Drawing.Point(765, 158);
+            this.text_search.Location = new System.Drawing.Point(749, 210);
             this.text_search.Name = "text_search";
             this.text_search.Size = new System.Drawing.Size(144, 20);
             this.text_search.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(932, 155);
+            this.button1.Location = new System.Drawing.Point(885, 269);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(794, 230);
+            this.button2.Location = new System.Drawing.Point(811, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(91, 23);
             this.button2.TabIndex = 5;
@@ -87,23 +88,33 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(743, 81);
+            this.dateTimePicker1.Location = new System.Drawing.Point(718, 142);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 6;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(743, 119);
+            this.dateTimePicker2.Location = new System.Drawing.Point(939, 142);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 7;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(939, 209);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1153, 500);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button2);
@@ -127,6 +138,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

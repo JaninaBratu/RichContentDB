@@ -3,7 +3,7 @@ namespace RCD.DAL.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class init_tbls : DbMigration
+    public partial class init_tbl : DbMigration
     {
         public override void Up()
         {

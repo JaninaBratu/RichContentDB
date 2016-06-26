@@ -195,3 +195,17 @@ E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
 E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.dll
 E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll.config
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.pdb
+D:\Work\RichContentDB\RCD.BL\bin\Debug\EntityFramework.dll
+D:\Work\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.DAL.dll
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.Model.dll
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.DAL.pdb
+D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.Model.pdb
+D:\Work\RichContentDB\RCD.BL\bin\Debug\EntityFramework.xml
+D:\Work\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.dll
+D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.pdb

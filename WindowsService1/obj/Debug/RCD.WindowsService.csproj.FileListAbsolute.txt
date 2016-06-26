@@ -88,3 +88,21 @@ E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\WindowsService1.Proj
 E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\RCD.WindowsService.csproj.GenerateResource.Cache
 E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\Netrom.WindowsService.exe
 E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\Netrom.WindowsService.pdb
+D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.exe.config
+D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.exe
+D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.pdb
+D:\Work\RichContentDB\WindowsService1\bin\Debug\EntityFramework.dll
+D:\Work\RichContentDB\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.BL.dll
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.DAL.dll
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.Model.dll
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.BL.pdb
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.DAL.pdb
+D:\Work\RichContentDB\WindowsService1\bin\Debug\RCD.Model.pdb
+D:\Work\RichContentDB\WindowsService1\bin\Debug\EntityFramework.xml
+D:\Work\RichContentDB\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\RichContentDB\WindowsService1\obj\Debug\RCD.WindowsService.csprojResolveAssemblyReference.cache
+D:\Work\RichContentDB\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+D:\Work\RichContentDB\WindowsService1\obj\Debug\RCD.WindowsService.csproj.GenerateResource.Cache
+D:\Work\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.exe
+D:\Work\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.pdb

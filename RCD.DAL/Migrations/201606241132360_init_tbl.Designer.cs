@@ -7,13 +7,13 @@ namespace RCD.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class init_tbls : IMigrationMetadata
+    public sealed partial class init_tbl : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(init_tbls));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init_tbl));
         
         string IMigrationMetadata.Id
         {
-            get { return "201606191830528_init_tbls"; }
+            get { return "201606241132360_init_tbl"; }
         }
         
         string IMigrationMetadata.Source

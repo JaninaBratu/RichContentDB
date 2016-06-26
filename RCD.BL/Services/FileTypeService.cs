@@ -13,11 +13,13 @@ namespace RCD.BL.Services
     {
 
         
-        public static int AddFileType(FileType fileType) {
+        public static int AddFileType(FileType fileType)
+        {
             return RepositoryFileType.SaveFileTypeInDb(fileType);
         }
 
-        public static int GetFyleTypeId(string fileTypeName) {
+        public static int GetFyleTypeId(string fileTypeName)
+        {
             var fileTypeId = RepositoryFileType.GetFileTypeIdByName(fileTypeName);
             if (fileTypeId == 0)
             {
@@ -29,5 +31,9 @@ namespace RCD.BL.Services
             return fileTypeId;
         }
 
+        public static List<string> GetFileTypes()
+        {
+            return RepositoryFileType.GetFileTypes();
+        }
     }
 }

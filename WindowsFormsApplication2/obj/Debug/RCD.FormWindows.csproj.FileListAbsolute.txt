@@ -105,3 +105,25 @@ E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.FormWin
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.MetadataForm.resources
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.Properties.Resources.resources
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csproj.GenerateResource.Cache
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.exe.config
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.exe
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.exe
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\FormWindows.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.dll
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.BL.dll
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.DAL.dll
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.Model.dll
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\TestWindowsForm.exe
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.BL.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.DAL.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\RCD.Model.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\TestWindowsForm.pdb
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.xml
+D:\Work\RichContentDB\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csprojResolveAssemblyReference.cache
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.MainForm.resources
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.MetadataForm.resources
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.Properties.Resources.resources
+D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csproj.GenerateResource.Cache
