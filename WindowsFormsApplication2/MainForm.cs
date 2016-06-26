@@ -120,19 +120,18 @@ namespace RCD.FormWindows
 
         private void InitializeComboBox()
         {
-            List<string> listOfFileTypes = FileTypeService.GetFileTypes();
-            DataGridViewComboBoxColumn comboBoxColumn = new DataGridViewComboBoxColumn();
-            comboBoxColumn.HeaderText = "FileType";
+            List<Model.FileType> listOfFileTypes = FileTypeService.GetFileTypes();
+            List<ComboboxItem> c = new List<ComboboxItem>();
+            for (int i = 0; i < listOfFileTypes.Count; i++)
+            {
+                
+                c.Add(new ComboboxItem(listOfFileTypes[i].Name.ToString(), listOfFileTypes[i].FileTypeId));
 
-            //method 1: 
-            //comboBoxColumn.DataSource = listOfFileTypes;
+            }
+            comboBox1.DataSource = c;
 
-            //method 2: 
-            //comboBoxColumn.Items.Add("");
-            //for (int i = 0; i < listOfFileTypes.Count; i++)
-            //{
-            //    comboBoxColumn.Items.Add(listOfFileTypes[i]);
-            //}
+            comboBox1.DisplayMember = "Text";
+            comboBox1.ValueMember = "Value";
 
         }
 

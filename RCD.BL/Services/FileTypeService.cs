@@ -31,7 +31,7 @@ namespace RCD.BL.Services
             return fileTypeId;
         }
 
-        public static List<string> GetFileTypes()
+        public static List<FileType> GetFileTypes()
         {
             return RepositoryFileType.GetFileTypes();
         }

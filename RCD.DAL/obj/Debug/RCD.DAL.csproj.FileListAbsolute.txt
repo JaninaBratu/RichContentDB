@@ -214,9 +214,7 @@ E:\.Net Trainning\janina\Solution\RCD.DAL\bin\Debug\EntityFramework.SqlServer.xm
 E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.csprojResolveAssemblyReference.cache
 E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.dll
 E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.pdb
-E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.Migrations.init_tbls.resources
 E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.csproj.GenerateResource.Cache
-E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.Migrations.init_tbls2.resources
 D:\Work\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.dll.config
 D:\Work\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.dll
 D:\Work\RichContentDB\RCD.DAL\bin\Debug\RCD.DAL.pdb
@@ -231,3 +229,4 @@ D:\Work\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.dll
 D:\Work\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.pdb
 D:\Work\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.Migrations.init_tbl.resources
 D:\Work\RichContentDB\RCD.DAL\obj\Debug\RCD.DAL.csproj.GenerateResource.Cache
+E:\.Net Trainning\janina\Solution\RCD.DAL\obj\Debug\RCD.DAL.Migrations.init_tbl.resources
