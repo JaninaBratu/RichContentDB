@@ -58,12 +58,12 @@ namespace RCD.DAL
             return fileTypeId;
         }
 
-        public static List<string> GetFileTypes()
+        public static List<FileType> GetFileTypes()
         {
             using (var context = new ModelContext())
             {
                 return (from ft in context.FileTypes
-                        select ft.Name).Distinct().ToList();
+                        select ft).Distinct().ToList();
             }
         }
 
