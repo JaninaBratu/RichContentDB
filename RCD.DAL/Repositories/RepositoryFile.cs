@@ -148,7 +148,6 @@ namespace RCD.DAL
                     var result = (from f in context.Files
                             join ft in context.FileTypes
                             on f.FileType.FileTypeId equals ft.FileTypeId
-                            //## where f.Name == filter.SearchText || ft.Name == filter.SearchText
                             select new FileViewModel
                             {
                                 FileId = f.FileId,
@@ -157,10 +156,14 @@ namespace RCD.DAL
                                 CreationDate = f.CreateDate
                             });
 
-                    if (!string.IsNullOrEmpty(filter.SearchText))
+                    if (!string.IsNullOrEmpty(filter.Name))
                     {
-                        result = result.Where(f => f.Name.ToLower().Contains(filter.SearchText) || f.FileType.ToLower().Contains(filter.SearchText));
+                        result = result.Where(f => f.Name.ToLower().Contains(filter.Name));
                     }
+                    if (!string.IsNullOrEmpty(filter.Type))
+                     {
+                        result = result.Where(f => f.FileType.ToLower().Contains(filter.Type));
+                     }
                     if (filter.DateFrom != null)
                     {
                         result = result.Where(f => f.CreationDate >= filter.DateFrom);

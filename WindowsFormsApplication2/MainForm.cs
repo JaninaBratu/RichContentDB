@@ -67,20 +67,45 @@ namespace RCD.FormWindows
         {
             try
             {
-                DateTime dateFrom = dateTimePicker1.Value.Date;
-                DateTime dateTo = dateTimePicker2.Value.Date;
-                string searchedText = text_search.Text;
+                if (checkBox1.Checked)
+                {
+                    DateTime dateFrom = dateTimePicker1.Value.Date;
+                    DateTime dateTo = dateTimePicker2.Value.Date;
+                    string nameSearched = text_search.Text;
 
-                FilterViewModel filterViewM = new FilterViewModel(searchedText, dateFrom, dateTo);
-                List<FileViewModel> listOfFiles = FileService.SearchByFilters(filterViewM);
+                    ComboboxItem selectedType = (ComboboxItem)comboBox1.SelectedItem;
+                    string selecteVal = selectedType.Text;
 
-                //reset filters
-                text_search.Text = "";
-                dateTimePicker1.Value = DateTime.Now.Date;
-                dateTimePicker2.Value = DateTime.Now.Date;
+                    string typeSearched = selecteVal;
 
-                InitializeDataGridView(listOfFiles);
+                    FilterViewModel filterViewM = new FilterViewModel(nameSearched, typeSearched, dateFrom, dateTo);
+                    List<FileViewModel> listOfFiles = FileService.SearchByFilters(filterViewM);
+
+                    //reset filters
+                    text_search.Text = "";
+                    dateTimePicker1.Value = DateTime.Now.Date;
+                    dateTimePicker2.Value = DateTime.Now.Date;
+
+                    InitializeDataGridView(listOfFiles);
+                }
+                else
+                {
+                    dateTimePicker1.Value = new DateTime();
+                    dateTimePicker2.Value = new DateTime();
+                    string namesearched = text_search.Text;
+
+                    ComboboxItem selectedType = (ComboboxItem)comboBox1.SelectedItem;
+                    string selecteVal = selectedType.Text;
+                    string typeSearched = selecteVal;
+
+                    FilterViewModel filterViewList = new FilterViewModel(namesearched, typeSearched, dateTimePicker1.Value, dateTimePicker2.Value);
+                    List<FileViewModel> listoffiles = FileService.SearchByFilters(filterViewList);
+
+                    //reset filters
+                    text_search.Text = "";
             }
+
+        }
             catch (Exception)
             {
                 throw;
