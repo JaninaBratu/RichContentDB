@@ -184,3 +184,4 @@ D:\Work\RichContentDB\RCD.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Work\RichContentDB\RCD.Model\obj\Debug\RCD.Model.dll
 D:\Work\RichContentDB\RCD.Model\obj\Debug\RCD.Model.pdb
 D:\Work\RichContentDB\RCD.Model\obj\Debug\RCD.Model.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\janina\Solution\RCD.Model\obj\Debug\RCD.Model.csprojResolveAssemblyReference.cache

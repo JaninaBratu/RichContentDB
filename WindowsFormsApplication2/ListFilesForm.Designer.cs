@@ -1,4 +1,4 @@
-﻿namespace RCD.FormWindows
+﻿namespace RCD.Form
 {
     partial class MainForm
     {

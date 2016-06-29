@@ -101,7 +101,6 @@ E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\bin\Debug\TestWindows
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\bin\Debug\EntityFramework.xml
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\bin\Debug\EntityFramework.SqlServer.xml
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csprojResolveAssemblyReference.cache
-E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.MainForm.resources
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.MetadataForm.resources
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.Properties.Resources.resources
 E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csproj.GenerateResource.Cache
@@ -127,3 +126,6 @@ D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.MainFor
 D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.MetadataForm.resources
 D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\FormWindows.Properties.Resources.resources
 D:\Work\RichContentDB\WindowsFormsApplication2\obj\Debug\RCD.FormWindows.csproj.GenerateResource.Cache
+E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\RCD.Form.MainForm.resources
+E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.UserLoginForm.resources
+E:\.Net Trainning\janina\Solution\WindowsFormsApplication2\obj\Debug\FormWindows.RegistrationForm.resources

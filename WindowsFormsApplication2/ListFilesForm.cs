@@ -8,9 +8,9 @@ using System.Windows.Forms;
 using FormWindows;
 using RCD.DAL.ViewModel;
 
-namespace RCD.FormWindows
+namespace RCD.Form
 {
-    public partial class MainForm : Form
+    public partial class MainForm : System.Windows.Forms.Form
     {
 
         public MainForm()
