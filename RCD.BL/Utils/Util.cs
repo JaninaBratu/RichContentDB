@@ -41,8 +41,6 @@ namespace RCD.BL.Utils
 
             }
         }
-
-        
     }
 
 }

@@ -181,20 +181,6 @@ D:\Work\DidacticApp\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
 D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.dll
 D:\Work\DidacticApp\RichContentDB\RCD.BL\obj\Debug\RCD.BL.pdb
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.Model.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.xml
-E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
-E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
-E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.dll
-E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.pdb
 D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll.config
 D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.dll
 D:\Work\RichContentDB\RCD.BL\bin\Debug\RCD.BL.pdb
@@ -209,3 +195,17 @@ D:\Work\RichContentDB\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
 D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.dll
 D:\Work\RichContentDB\RCD.BL\obj\Debug\RCD.BL.pdb
+E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.dll.config
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.BL.pdb
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.DAL.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.Model.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.DAL.pdb
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\RCD.Model.pdb
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.xml
+E:\.Net Trainning\janina\Solution\RCD.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.dll
+E:\.Net Trainning\janina\Solution\RCD.BL\obj\Debug\RCD.BL.pdb

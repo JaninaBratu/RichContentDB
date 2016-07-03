@@ -11,6 +11,7 @@
     <AssemblyName>RCD.BL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,13 +55,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\MetadataService.cs" />
     <Compile Include="Services\MetadataTypeService.cs" />
-    <Compile Include="Services\UserRegistrationService.cs" />
+    <Compile Include="Services\UserService.cs" />
     <Compile Include="Utils\FileAction.cs" />
+    <Compile Include="Utils\RegistrationAction.cs" />
     <Compile Include="Utils\Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RCD.DAL\RCD.DAL.csproj">
-      <Project>{8E23303D-43FD-43F8-9CF9-31AB72E26465}</Project>
+      <Project>{8e23303d-43fd-43f8-9cf9-31ab72e26465}</Project>
       <Name>RCD.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\RCD.Model\RCD.Model.csproj">

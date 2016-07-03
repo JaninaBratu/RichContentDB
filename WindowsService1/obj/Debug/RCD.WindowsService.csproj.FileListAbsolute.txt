@@ -70,24 +70,6 @@ D:\Work\DidacticApp\RichContentDB\WindowsService1\bin\Debug\EntityFramework.xml
 D:\Work\DidacticApp\RichContentDB\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
 D:\Work\DidacticApp\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.exe
 D:\Work\DidacticApp\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.pdb
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\Netrom.WindowsService.exe.config
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\Netrom.WindowsService.exe
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\Netrom.WindowsService.pdb
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\EntityFramework.dll
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.BL.dll
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.DAL.dll
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.Model.dll
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.BL.pdb
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.DAL.pdb
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\RCD.Model.pdb
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\EntityFramework.xml
-E:\.Net Trainning\janina\Solution\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
-E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\RCD.WindowsService.csprojResolveAssemblyReference.cache
-E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
-E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\RCD.WindowsService.csproj.GenerateResource.Cache
-E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\Netrom.WindowsService.exe
-E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\Netrom.WindowsService.pdb
 D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.exe.config
 D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.exe
 D:\Work\RichContentDB\WindowsService1\bin\Debug\Netrom.WindowsService.pdb
@@ -106,3 +88,6 @@ D:\Work\RichContentDB\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller
 D:\Work\RichContentDB\WindowsService1\obj\Debug\RCD.WindowsService.csproj.GenerateResource.Cache
 D:\Work\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.exe
 D:\Work\RichContentDB\WindowsService1\obj\Debug\Netrom.WindowsService.pdb
+E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\RCD.WindowsService.csprojResolveAssemblyReference.cache
+E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+E:\.Net Trainning\janina\Solution\WindowsService1\obj\Debug\RCD.WindowsService.csproj.GenerateResource.Cache

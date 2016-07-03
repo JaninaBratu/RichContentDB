@@ -13,7 +13,7 @@ namespace FormWindows
 
         bool isOk = false;
 
-        public MetadataForm(MainForm mainForm)
+        public MetadataForm(FilesForm mainForm)
         {
 
         }
@@ -28,7 +28,7 @@ namespace FormWindows
         private void button1_Click(object sender, System.EventArgs e)
         {
             this.Hide();
-            MainForm mainForm = new MainForm();
+            FilesForm mainForm = new FilesForm();
             mainForm.Show();
         }
 

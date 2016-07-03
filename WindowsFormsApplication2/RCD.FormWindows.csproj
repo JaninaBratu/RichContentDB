@@ -56,18 +56,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComboboxItem.cs" />
-    <Compile Include="UserLoginForm.cs">
+    <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserLoginForm.Designer.cs">
-      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListFilesForm.cs">
+    <Compile Include="FilesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ListFilesForm.Designer.cs">
-      <DependentUpon>ListFilesForm.cs</DependentUpon>
+    <Compile Include="FilesForm.Designer.cs">
+      <DependentUpon>FilesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MetadataForm.cs">
       <SubType>Form</SubType>
@@ -83,11 +89,20 @@
     <Compile Include="RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ListFilesForm.resx">
-      <DependentUpon>ListFilesForm.cs</DependentUpon>
+    <Compile Include="UserProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfileForm.Designer.cs">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserLoginForm.resx">
-      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    <EmbeddedResource Include="FilesForm.resx">
+      <DependentUpon>FilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MetadataForm.resx">
       <DependentUpon>MetadataForm.cs</DependentUpon>
@@ -104,6 +119,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfileForm.resx">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
